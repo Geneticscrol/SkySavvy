@@ -2,7 +2,7 @@
 
 WeatherNow is a modern weather application that provides real-time weather information for cities around the world. Stay updated on the current weather conditions, temperature, humidity, wind speed, and more with this intuitive and responsive application.
 
-## Features
+## 📦 Features
 
 - Real-time weather information for any city
 - Temperature displayed in Celsius
@@ -11,49 +11,50 @@ WeatherNow is a modern weather application that provides real-time weather infor
 - Quick access to popular cities
 - Responsive design for seamless experience on different devices
 
-## Demo
+## 📝 Demo
 
-Check out the live demo of WeatherNow [here](https://your-demo-link).
+Check out the live demo of WeatherNow [here](https://geneticscrol.github.io/SkySavvy/).
 
-## Screenshots
+## 📷 Screenshots
 
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 4](screenshots/screenshot4.png)
 
-## Installation
+## 📋 Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weathernow.git
+   git clone https://github.com/Geneticscrol/SkySavvy.git
 
 2. Navigate to the project directory:
 
     ```bash
-    cd weathernow
+    cd SkySavvy
 
 3. Open index.html in your preferred web browser.
 
-## Usage
+## 💡 Usage
 
 Enter the name of a city in the search input and press Enter or click the search button.
 The current weather information for the specified city will be displayed, including temperature, weather condition, date, and time.
 Click on any of the popular cities to view their weather information.
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 HTML
 CSS
 JavaScript
 WeatherAPI
 
-## Contributing
+## 👥 Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-# Please make sure to replace the placeholders (`your-demo-link`, `your-username`) with the appropriate information relevant to your project.
+## ⚠️ Please make sure to replace the placeholders (`your-demo-link`, `your-username`) with the appropriate information relevant to your project.
