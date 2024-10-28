@@ -65,13 +65,8 @@ h1, h3 {
 }
 
 .temp {
-    font-size: 7em;
+    font-size: 4em;
     margin: 0;
-}
-
-.weather img {
-    display: block;
-    margin: 0.5em 0;
 }
 
 .panel {
@@ -162,6 +157,11 @@ h1, h3 {
     align-items: center;
 }
 
+.city-time h1, .temp {
+    overflow-wrap: break-word;
+    text-align: center; /* Helps center-align on smaller screens */
+}
+
 @media screen and (max-width: 900px) {
     .panel, .container {
         position: relative;
@@ -169,6 +169,31 @@ h1, h3 {
         top: initial;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .panel, .container {
+        position: fixed;
+        width: 100%;
+        top: initial;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container > div {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center-align the text */
+    }
+
+    .city-time h1 {
+        margin-top: 0.5em; /* Add some space above the city name */
+        font-size: 2em; /* Adjust font size for better fit */
+    }
+
+    .temp {
+        font-size: 2.5em; /* Adjust font size for temperature */
+    }
+}
+
 
 @media screen and (max-width: 500px) {
     html {
@@ -182,7 +207,7 @@ h1, h3 {
     }
 }
 
-@media screen and (max-width: 1300) {
+@media screen and (max-width: 1300px) {
     .temp {
         width: fit-content;
     }
